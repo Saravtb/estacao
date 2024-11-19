@@ -1,0 +1,134 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a fonte padrão */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e09999c2;
+    color: #333;
+    line-height: 1.6;
+    padding: 15px;
+}
+
+/* Estilizando o título principal */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.6) ;
+}
+
+/* Estilizando o formulário */
+form {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    display: block;
+    color: #555;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #555;
+}
+
+input[type="submit"] {
+    background-color: #ea5252;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #aa4b4b;
+}
+
+/* Estilo para a estação exibida */
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #555555ea;
+}
+
+/* Estilo das imagens */
+img {
+    display: block;
+    max-width: 30%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 20px;
+    border-style: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+        width: 100%;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}
+    .titu{
+       background-color: aliceblue;
+       text-align: center;
+       border-radius: 150px 150px 20px 20px;
+       border-style: groove;
+       border-color: #ea5252b5;
+       padding: 10px;
+       margin-left: 490px;
+       margin-right: 490px;
+    }
+
+    .estacao{
+        background-color: aliceblue;
+        text-align: center;
+        border-radius: 20px 20px 150px 150px;
+        border-style: groove;
+        border-color: #ea5252b5;
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 490px;
+        margin-right: 490px;
+    }
+
+   
